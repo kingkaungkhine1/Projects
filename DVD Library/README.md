@@ -1,6 +1,7 @@
 Simple Java CLI program with a DAO
 
 Program Features:
+
 Allow the user to add a DVD to the collection
 
 Allow the user to remove a DVD from the collection
@@ -21,6 +22,7 @@ Allow the user to add, edit, or delete many DVDs in one session
 
 
 DVD Object has:
+
 Title
 
 Release date
