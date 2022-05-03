@@ -1,0 +1,1 @@
+A project I worked on while at mThree/The Software Guild. Has a front end with HTML/CSS simplified with bootstrap and using Spring. Front end interacts with main Java program. Java program connects to MySQL database to read and write data. Test functions also written.
