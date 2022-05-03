@@ -10,6 +10,8 @@ If the user selects an item that costs equal to or less than the amount of money
 Change displayed as the number of quarters, dimes, nickels, and pennies returned to the user.
 Vending machine items stored in a file. Inventory for the vending machine read from this file when the program starts and written out to this file just before the program exits. 
 
+Each user action is logged and stored in an audit.txt file.
+
 The program tracks the following properties for each item:
 Item name,
 Item cost,
