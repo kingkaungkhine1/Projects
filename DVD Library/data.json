@@ -1,0 +1,26 @@
+[  
+    {  
+        "titleString":"AAAAA",
+        "releaseDate":"1111/111",
+        "MPAA":"11111",
+        "dirName":"A DIR",
+	"stuName":"A STU",
+	"userName":"A MOVIE"
+    },
+	{  
+        "titleString":"BBBBB",
+        "releaseDate":"2222/222",
+        "MPAA":"22222",
+        "dirName":"B DIR",
+	"stuName":"B STU",
+	"userName":"B MOVIE"
+    },
+	{  
+        "titleString":"CCCCC",
+        "releaseDate":"3333/33",
+        "MPAA":"33333",
+        "dirName":"C DIR",
+	"stuName":"C STU",
+	"userName":"C MOVIE"
+    }
+]
