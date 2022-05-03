@@ -1,4 +1,4 @@
-Simple Java CLI program with a DAO
+Simple Java CLI program with a DAO. Can read and write data.json file. Information is saved and loaded in the program based on user input. 
 
 Program Features:
 
