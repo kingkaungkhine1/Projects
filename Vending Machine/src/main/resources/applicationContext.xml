@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="
+                http://www.springframework.org/schema/beans
+                http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="io" class="vend.io.UserIOConsoleImpl" />
+
+    <bean id="dao" class="vend.dao.vendDaoFileImpl" />
+
+    <bean id="view" class="vend.view.vendView">
+        <constructor-arg ref="io" />
+    </bean>
+
+    <bean id="audit" class="vend.dao.vendAuditDaoImpl" />
+
+    <bean id="service" class="vend.service.vendServiceLayerImpl">
+        <constructor-arg ref="dao" />
+        <constructor-arg ref="audit" />
+    </bean>
+
+    <bean id="controller" class="vend.controller.vendController">
+        <constructor-arg ref="service" />
+        <constructor-arg ref="view" />
+    </bean>
+
+</beans>
